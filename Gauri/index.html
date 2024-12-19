@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gauri Jadhav - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Gauri Jadhav</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="resume.pdf">Resume</a></li>
+        <li><a href="#contact">Contact me  </a></li>
+      </ul>
+      <a href="#contact" class="btn hire-me">Hire Me</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="intro">
+     
+      <h1>Hi, I’m Gauri Jadhav</h1>
+      <p class="tagline">Passionate about Technology,Teaching and Innovation</p>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://substack.com" target="_blank">Substack</a>
+      </div>
+    </div>
+  </section>
+  <section id="education" class="education-section">
+    <h2 class="section-title">Education</h2>
+    <div class="education-container">
+      <div class="education-card">
+        <div class="edu-icon">🎓</div>
+        <h3 class="edu-degree">SY BSC IT</h3>
+        <p class="edu-institution">B. K. Birla College, Mumbai University</p>
+        <span class="edu-duration">2023 - Present</span>
+      </div>
+      
+      <div class="education-card">
+        <div class="edu-icon">📜</div>
+        <h3 class="edu-degree">Higher Secondary Education</h3>
+        <p class="edu-institution">New English High School</p>
+        <span class="edu-duration">2021 - 2023</span>
+      </div>
+  
+      <div class="education-card">
+        <div class="edu-icon">🏫</div>
+        <h3 class="edu-degree">Secondary Education</h3>
+        <p class="edu-institution">New English High School & junior college</p>
+        <span class="edu-duration">2019 - 2021</span>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="skills">
+    <div>
+        <h2>Technical Skills</h2>
+        <div class="skill-grid">
+            <!-- Skill Card with Circular Indicator -->
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="skill-indicator" style="--skill-level: 90%;"><span>90%</span></div>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <div class="skill-indicator" style="--skill-level: 85%;"><span>85%</span></div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <div class="skill-indicator" style="--skill-level: 60%;"><span>60%</span></div>
+            </div>
+
+            <div class="skill-card">
+                <h3>React</h3>
+                <div class="skill-indicator" style="--skill-level: 50%;"><span>50%</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Soft Skills</h2>
+        <div class="skill-grid">
+            <!-- Skill Card with Progress Bar -->
+            <div class="skill-card" class="progress-card">
+                <h3>Confidence</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <div class="progress-label">90%</div>
+            </div>
+
+            <div class="skill-card" class="progress-card">
+                <h3>Interactive Communication</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+                <div class="progress-label">85%</div>
+            </div>
+
+            <div class="skill-card" class="progress-card">
+                <h3>Resilience</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <div class="progress-label">75%</div>
+            </div>
+
+            <div class="skill-card" class="progress-card">
+                <h3>Leadership Quality</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <div class="progress-label">75%</div>
+            </div>
+
+            <div class="skill-card" class="progress-card">
+                <h3>Emotional Intelligence</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <div class="progress-label">75%</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2><div class="project-space">
+    <div class="project-card">
+      <h3>Online Library Platform for College  &nbsp<img src="project-icon.png" alt="" class="project-icon"> </h3>
+      <p>A library platform streamlining book access for students, built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div>
+      <img src="ss1" alt="">
+    </div>
+
+  </div >
+  <div class="project-space">
+    <div class="project-card">
+      <h3>Indian College Details Website   &nbsp  <img src="project-icon.png" alt="" class="project-icon"></h3>
+      <p>A platform to browse details about Indian colleges.</p>
+    </div>
+  </div>
+  </section>
+
+  
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <p>Email:  <a>gaurij355@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 Gauri Jadhav. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+    // Initialize EmailJS
+    emailjs.init("Qnupzqj8JiUSIKci1"); // Replace YOUR_PUBLIC_KEY with your EmailJS public key
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission behavior
+
+        // Collect form data
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Send email using EmailJS
+        emailjs.send("service_38gauri", "template_38gauri", {
+            from_name: name,
+            from_email: email,
+            message: message,
+        }).then(
+            function (response) {
+                alert("Message sent successfully!");
+                document.getElementById("contact-form").reset(); // Reset the form
+            },
+            function (error) {
+                alert("Failed to send message. Please try again later.");
+                console.error("EmailJS Error:", error);
+            }
+        );
+    });
+</script>
+</html>
